@@ -1,0 +1,66 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 35%;
+    height: auto; /* Adjusted height to auto to accommodate the label and input fields */
+    border: 1px solid #8c8c8c;
+    border-radius: 5px;
+    margin-left: 40%;
+    margin-top: 6%;
+    background-color: #ececec;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .inputField {
+    text-emphasis-color: grey;
+    text-align: left;
+    padding: 10px;
+    margin: 5px 0 15px 0; /* Adjusted margin to give space between label and input */
+    width: 95%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .verifyButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .verifyButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .pan-text, .dob-text {
+    margin-bottom: 5px; /* Space between the label and input field */
+    text-align: left; /* Align the label text to the left */
+    width: 95%;
+  }
+  
+  .inputField::placeholder {
+    color: #aaa;
+    opacity: 1;
+  }
+  
+  .inputField:focus {
+    border-color: #66afe9;
+    outline: none;
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+  }
+  
+  .inputs {
+    display: flex;
+    flex-direction: column; /* Change layout to column to place label above input */
+    width: 100%;
+  }
+  

@@ -1,0 +1,123 @@
+/* src/Sidebar.css */
+*{
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+    width: 300px;
+    height: 78vh;
+    background-color: rgb(246, 250, 250);
+    position: fixed;
+    margin-top: 13px;
+    margin-left: 20px;
+    padding-left: 2px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar-menu{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(210, 210, 210);
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 1.1em;
+    display: block;
+  }
+  .sidebar-menu li {
+    margin-bottom: 18px; /* Adjust the value to increase or decrease space between items */
+    margin-left: -10;
+}
+  
+.dashboard{
+    background-color: rgb(210, 210, 210);
+    height: 60vh;
+    margin-top: 10px;
+    width: 270px;
+    border:1px  gray ;
+  border-radius: 10px;
+margin-left: 8px;    
+}
+
+
+.sidebar-title{
+padding-top: 8px ;
+padding-left: 4px;
+font-size: 1.1em;
+display: block;
+
+}
+
+.dash-img{
+  height: 25px;
+  width: 25px;
+  padding-top: 10px;
+  padding-left: 10px;
+
+}
+
+.dash-container{
+  display: flex;
+}
+  .side-bar-text{
+    width: 250px;
+    height: 55px;
+    font-size: 13px;
+    border:1px solid gray ;
+    border-radius: 5px;
+
+    padding-top: 5px;
+    padding-left: 14px;
+    padding-bottom: 12px;
+    margin-left: 3%;
+    margin-top: 4%;
+
+}
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+  li{
+    padding: 5px;
+  }
+ 
+  
+ .drop-down-img{
+  height: 20px;
+  width: 20px;
+  padding-left: 12px;
+ }
+
+ .dropdown{
+
+display: flex;
+gap: 8px;
+font-size: 1.1em;
+}
+.drop{
+  margin-bottom: 2%;
+}
+
+/* Admin */
+
+.admin-side-bar{
+  padding-left:20px ;
+}
+.sidebar-text{
+  background-color: rgb(210, 210, 210);
+  border: none;
+  font-size: 1.1em;
+  padding-top: 20px;
+  list-style-type: none;
+
+}
+.item-groups{
+  list-style-type: none;
+}
+.Item{
+  font-size: 105%;
+  background-color: rgb(210, 210, 210);
+
+}
